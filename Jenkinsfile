@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('First') {
       steps {
-        powershell(script: 'npm install npm test', returnStatus: true, returnStdout: true)
+        powershell(script: 'npm test', returnStatus: true, returnStdout: true)
       }
     }
   }
