@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('First') {
       steps {
-        powershell(script: 'ls', returnStatus: true, returnStdout: true, encoding: 'utf-8')
+        powershell(script: 'npm start', returnStatus: true, returnStdout: true, encoding: 'utf-8')
       }
     }
   }
