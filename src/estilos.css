@@ -20,5 +20,6 @@ li {
     width: 25%;
     border: 1px solid red;
     color: #fff;
-    color: #282C34;
+    font-size: 0.5em;
+
 }
