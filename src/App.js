@@ -10,7 +10,7 @@ class App extends Component {
     this.state = {
       posts: []
     }
-    this.teste = this.teste.bind(this);
+    this.teste = this.teste.bind(tis);
   }
 
   getPosts = () => {
